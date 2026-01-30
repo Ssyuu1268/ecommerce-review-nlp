@@ -1,4 +1,4 @@
-# ecommerce-review-nlp
+# Ecommerce-review-nlp
 # E-commerce Review NLP: 1–5 Star Rating Prediction
 
 ## Overview
