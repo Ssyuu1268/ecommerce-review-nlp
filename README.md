@@ -44,12 +44,35 @@ It benchmarks **traditional ML baselines (TF-IDF)** against **deep learning mode
 - Naive Bayes is recommended for **fast, low-resource** scenarios; CNN/LSTM are better when **higher accuracy** is required.
 
 ## How to view the report
-- HTML report: `E-commerce review NLP.html`  
-  Download and open locally in a browser, or enable **GitHub Pages** for a web preview:
-  1) Rename the HTML file to `index.html`  
-  2) Repo → Settings → Pages → Deploy from branch (main / root)
+- HTML report: `E-commerce review NLP.html`
+
+**Option A (recommended): Open locally**
+1. Click `E-commerce review NLP.html`
+2. Click **Download** (or **View raw**)
+3. Open the downloaded file in a browser (Chrome/Safari)
+
+**Option B (optional): Publish via GitHub Pages (web preview)**
+If you want a shareable web link:
+1. (Recommended) rename `E-commerce review NLP.html` → `index.html`
+2. Repo → **Settings** → **Pages** → Deploy from branch (`main` / `root`)
+3. Open the generated Pages URL
+
+---
 
 ## Repository contents
 - `E-commerce review NLP.html` — full report (exported notebook)
-- (Optional) `README.md` — project summary
-- (Optional) `assets/` — figures/resources if referenced by the HTML
+- `README.md` — project summary
+
+---
+
+## Use cases (how the results can be used)
+- **Review coverage & normalization:** convert free-form reviews into structured 1–5 star ratings to standardize feedback at scale.
+- **Product insight & prioritization:** surface recurring issues/topics behind low ratings to prioritize fixes and roadmap decisions.
+- **Quality monitoring:** track shifts in predicted ratings over time to detect emerging problems after releases or policy changes.
+- **Customer experience analytics:** summarize sentiment/rating signals to support marketing, service operations, and VoC reporting.
+
+---
+
+## Author
+Shu-Yu Lin
+
